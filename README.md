@@ -164,3 +164,19 @@ int main()
 	else printf("F\n"); /*低於60分以下的*/
 }
 ```
+#第02週 程式設計二上課內容
+1. 試著使用指標 *p , 把變數n1 的值改掉
+程式碼如下:
+```C
+#include <stdio.h>
+int main()
+{
+    int n1=10,n2=20,n3=30;
+    printf("n1:%d n2:%d n3:%d\n",n1,n2,n3);
+    int *p=&n1;
+    *p=200;
+    printf("n1:%d n2:%d n3:%d\n",n1,n2,n3);
+    return 0;
+}
+'''
+執行圖如下
