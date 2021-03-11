@@ -422,6 +422,4 @@ int main()
     *p2=666;
 }
 ```
-![](week03 06163020-1.png)
-
-
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%2006163020-1.png?raw=true)
