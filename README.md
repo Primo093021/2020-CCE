@@ -423,3 +423,33 @@ int main()
 }
 ```
 ![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%2006163020-1.png?raw=true)
+
+## 2.老師示範 int *p = &a[2]; *p=222; p = p + 2; *p = 666; p--; *p=555;
+```C
+#include <stdio.h>
+int a[5]={0,10,20,30,40};
+void printAll()
+{
+    for(int i=0;i<5;i++)
+    {
+        printf("%d ",a[i]);
+    }
+    printf("\n");
+}
+int main()
+{
+    int *p=&a[2];
+    *p=222;
+            printAll();
+
+    p=p+2;
+    *p2=666;
+            printAll();
+
+    p--;
+    *p2=555;
+            printAll();
+}
+```
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%2006163020-2.png?raw=true)
+
