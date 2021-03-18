@@ -561,3 +561,9 @@ int main()
 ![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%2006163020-3.png?raw=true)
 
 ## 4.請跟著老師練習: 很多結構的陣列, 看如何使用
+
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%2006163020-4.png?raw=true)
+
+## 5.請跟著老師練習: 很多結構的陣列, 看如何使用
+
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%2006163020-5.png?raw=true)
