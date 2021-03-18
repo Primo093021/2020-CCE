@@ -497,3 +497,17 @@ int main()
 }
 ```
 ![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%2006163020-4.PNG?raw=true)
+
+#第04週 程式設計二上課內容
+## 1.請跟著老師練習: struct DATA { float x, y, z; }; 結構的宣告、定義
+```C
+#include <stdio.h>
+struct DATA
+{
+    float x,y,z;
+}
+int main()
+{
+
+}
+```
