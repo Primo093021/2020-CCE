@@ -512,7 +512,7 @@ int main()
 
 }
 ```
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%2006163020-1.png?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/01.png?raw=true)
 
 ## 2.請跟著老師練習: 結構的使用, 把變數的 x, y, z 用小數點拿出來用
 
@@ -532,7 +532,7 @@ int main()
     printf("%f %f %f\n",point1.x,point1.y,point1.z);
 }
 ```
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%2006163020-2.png?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/02.png?raw=true)
 
 ## 3.請跟著老師練習: 很多結構的陣列, 看如何使用
 
@@ -558,15 +558,15 @@ int main()
     }
 }
 ```
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%2006163020-3.png?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/03.png?raw=true)
 
 ## 4.請跟著老師練習: 很多結構的陣列, 看如何使用
 
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%2006163020-4.png?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/04.png?raw=true)
 
 ## 5.請跟著老師練習: 很多結構的陣列, 看如何使用
 
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%2006163020-5.png?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/05.png?raw=true)
 
 #第04週的實習課程式
 
