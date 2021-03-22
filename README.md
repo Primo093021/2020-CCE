@@ -181,7 +181,7 @@ int main()
     return 0;
 }
 ```
-![](week02-06163020-1.png)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week02%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/01.png?raw=true)
 ## 2. 試著使用指標 *p2 , 把變數n3 的值改掉
 
 ```C
@@ -199,7 +199,7 @@ int main()
     return 0;
 }
 ```
-![](week02-06163020-2.png)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week02%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/02.png?raw=true)
 ## 3. 試著先 p2=p1, 然後 *p2=400, 再印出來。
 
 ```C
@@ -220,7 +220,7 @@ int main()
     return 0;
 }
 ```
-![](week02-06163020-3.png)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week02%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/03.png?raw=true)
 ## 4.現在改用陣列 int n[3]={10, 20, 30}, 再用指標, 去改裡面的值
 
 ```C
@@ -242,7 +242,7 @@ int main()
     return 0;
 }
 ```
-![](week02-06163020-4.png)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week02%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/04.png?raw=true)
 
 #第03週的實習課程式
 
