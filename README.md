@@ -422,7 +422,7 @@ int main()
     *p2=666;
 }
 ```
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%2006163020-1.png?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/01.png?raw=true)
 
 ## 2.老師示範 int *p = &a[2]; *p=222; p = p + 2; *p = 666; p--; *p=555;
 
@@ -452,7 +452,7 @@ int main()
             printAll();
 }
 ```
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%2006163020-2.JPG?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/02.JPG?raw=true)
 
 ## 3.請畫出 指標的宣告 int *p=&a[2]; 及指標的使用 p = &a[2] 
 
@@ -482,7 +482,7 @@ int main()
             printAll();
 }
 ```
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%2006163020-3.PNG?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/03.PNG?raw=true)
 
 ## 4.今天教最重要的是 malloc(), 它是什麼呢? 會幫你準備 memory (allocate memory)。請用老師傳給你的圖, 自己再畫一次, 增加印象。
 
@@ -496,7 +496,7 @@ int main()
     int *p=(int*) malloc(sizeof(int)*10 );
 }
 ```
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%2006163020-4.PNG?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/04.PNG?raw=true)
 
 #第04週 程式設計二上課內容
 ## 1.請跟著老師練習: struct DATA { float x, y, z; }; 結構的宣告、定義
