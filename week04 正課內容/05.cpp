@@ -1,7 +1,7 @@
 #include <stdio.h>
-struct DATA ///�ŧi
+struct DATA ///«Å§i
 {
-    float x,y,z;///�w�q�̭���...
+    float x,y,z;///©w¸q¸Ì­±¦³...
 } a,b;
 struct DATA c,d;
 int main()
