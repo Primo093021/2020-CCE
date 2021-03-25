@@ -955,7 +955,7 @@ int main()
 ```
 ![]()
 
-## 4.
+## 4.老師示範 char line[5][10] = {"decline", "proper", "majority", "bullet", "shop"}; 並且教大家 「左邊」「右邊」的技巧。請在 CodeBlocks 畫出來
 
 ```C
 #include <stdio.h>
@@ -971,5 +971,51 @@ int main()
         printf("\n");
     }
 }
+```
+![]()
+
+## 5.老師教大家 int a[3][3]={ {1,2,3}, {4,5,6}, {7,8,9} }; 請試著畫出來
+
+```C
+
+```
+![]()
+
+## 6. 老師示範字串排序, 請用練習模式, 試寫出來。下週考這題
+
+```C
+#include <stdio.h>
+#include <string.h>
+char line[100][10];
+int main()
+{
+	int N;
+	scanf("%d",&N);
+	for(int i=0;i<N;i++)
+	{
+		scanf("%s",line[i]);
+	}
+	char temp[10];
+	for(int i=0;i<N;i++)
+	{
+		for(int i=0;i<N;i++)
+		{
+			for(int j=i+1;j<N;j++)
+			{
+				if(strcmp(line[i],line[j])>0)
+				{
+					strcpy(temp,line[i]);
+					strcpy(line[i],line[j]);
+					strcpy(line[j],temp);
+				}
+			}
+		}
+	}
+	for(int i=0;i<N;i++)
+		{
+			printf("%s\n",line[i]);
+		}
+}
+
 ```
 ![]()
