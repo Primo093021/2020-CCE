@@ -873,3 +873,37 @@ int main()
 	printf("%d\n",a/b);
 }
 ```
+
+#第05週 程式設計二上課內容
+## 0.老師以今天考試「除惡務盡」為例, 示範了2種寫法, 其中一種是用字串的for迴圈來印。這種字串的 for迴圈很重要 for(int i=0; line[i]!=0; i++){...} 請你把程式寫出來, 並且標示 line[i]!=0 的地方 ( 0其實就是'\0')
+
+```C
+#include <stdio.h>
+char line[20]="233233233233233233";
+int main()
+{
+    char *p=line;
+    for(int i=0;line[i]!=0;i++)
+    {
+        p=&line[i];
+        char c=line[i];
+        if(c!='2') printf("%c",c);
+    }
+    printf("\n");
+}
+```
+![]()
+
+## 1.老師重新複習 字串的宣告: char line[10]="decline"; char line2[10]={ 'p', 'r', 'o', 'p', 'e', 'r', '\0' }; 讓大家多做練習。請練習吧! 重點是, 你有看到在字串 (字元陣列) 的後面有 '\0' 這個東西, 我們叫它「字串結尾」, 課本有畫出來過哦!
+
+```C
+#include <stdio.h>
+int main()
+{
+    char line[10]="decline";
+    char line2[10]={'p','r','o','p','e','r','\0'};
+    printf("%s\n",line);
+    printf("%s\n",line2);
+}
+```
+![]()
