@@ -875,7 +875,7 @@ int main()
 ```
 
 #第05週 程式設計二上課內容
-## 0.老師以今天考試「除惡務盡」為例, 示範了2種寫法, 其中一種是用字串的for迴圈來印。這種字串的 for迴圈很重要 for(int i=0; line[i]!=0; i++){...} 請你把程式寫出來, 並且標示 line[i]!=0 的地方 ( 0其實就是'\0')
+## 1.老師以今天考試「除惡務盡」為例, 示範了2種寫法, 其中一種是用字串的for迴圈來印。這種字串的 for迴圈很重要 for(int i=0; line[i]!=0; i++){...} 請你把程式寫出來, 並且標示 line[i]!=0 的地方 (0其實就是'\0')
 
 ```C
 #include <stdio.h>
@@ -894,8 +894,7 @@ int main()
 ```
 ![]()
 
-## 1.老師重新複習 字串的宣告: char line[10]="decline"; char line2[10]={ 'p', 'r', 'o', 'p', 'e', 'r', '\0' }; 讓大家多做練習。請練習吧! 重點是, 你有看到在字串 (字元陣列) 的後面有 '\0' 這個東西, 我們叫它「字串結尾」, 課本有畫出來過哦!
-
+## 2.老師重新複習 字串的宣告: char line[10]="decline"; char line2[10]={ 'p', 'r', 'o', 'p', 'e', 'r', '\0' }; 讓大家多做練習。請練習吧! 重點是, 你有看到在字串 (字元陣列) 的後面有 '\0' 這個東西, 我們叫它「字串結尾」, 課本有畫出來過哦!
 ```C
 #include <stdio.h>
 int main()
@@ -908,7 +907,8 @@ int main()
 ```
 ![]()
 
-## 2.老師把上面的程式, 加2行新的: char line3[]="majority"; char line4[]={'m','a','j','o','r','i','t','y'} 然後就在 printf("你知道嗎, 竟然出事了===%s==\n", line4);
+
+## 3.老師示範 char line[5][10] = {"decline", "proper", "majority", "bullet", "shop"}; 並且教大家 「左邊」「右邊」的技巧。請在 CodeBlocks 畫出來
 
 ```C
 #include <stdio.h>
@@ -931,10 +931,12 @@ int main()
 
     printf("你相信嗎?這是line4:==%s==\n",line4);
 }
+
+
 ```
 ![]()
 
-## 3.老師示範 char line[5][10] = {"decline", "proper", "majority", "bullet", "shop"}; 並且教大家 「左邊」「右邊」的技巧。請在 CodeBlocks 畫出來
+## 4.老師示範 char line[5][10] = {"decline", "proper", "majority", "bullet", "shop"}; 並且教大家 「左邊」「右邊」的技巧。請在 CodeBlocks 畫出來
 
 ```C
 #include <stdio.h>
@@ -952,10 +954,11 @@ int main()
         printf("%s\n",line[i]);
     }
 }
+
 ```
 ![]()
 
-## 4.老師示範 char line[5][10] = {"decline", "proper", "majority", "bullet", "shop"}; 並且教大家 「左邊」「右邊」的技巧。請在 CodeBlocks 畫出來
+## 5.老師教大家 int a[3][3]={ {1,2,3}, {4,5,6}, {7,8,9} }; 請試著畫出來
 
 ```C
 #include <stdio.h>
@@ -971,13 +974,6 @@ int main()
         printf("\n");
     }
 }
-```
-![]()
-
-## 5.老師教大家 int a[3][3]={ {1,2,3}, {4,5,6}, {7,8,9} }; 請試著畫出來
-
-```C
-
 ```
 ![]()
 
