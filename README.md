@@ -1015,3 +1015,102 @@ int main()
 
 ```
 ![]()
+
+#第06週的實習課程式
+
+## 第一題 進階題:函數反序排列數字
+
+```C
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	while(n>0)
+	{
+		int now=n%10;
+		n/=10;
+		printf("%d",now);
+	}
+	printf("\n");
+}
+```
+
+## 第二題 進階題:陣列找出現次數
+
+```C
+#include <stdio.h>
+int a[10]={0,0,0,0,0,0,0,0,0,0};
+int main()
+{
+	int count=0,num;
+	while(1)
+	{
+		scanf("%d",&num);
+		count++;
+		if(count==11)
+		{
+			count=0;
+			printf("%d",a[num]);
+			break;
+		}
+		else if(num==0)
+		{
+			count=0;
+			scanf("%d",&num);
+			printf("%d\n",a[num]);
+			break;
+		}
+		a[num]++;
+	}
+}
+```
+
+## 第三題 進階題:判斷大小
+
+```C
+#include <stdio.h>
+int f(int a,int b)
+{	
+	if(a<b)
+	{
+		return -1;
+	}
+	if(a==b)
+	{
+		return 0;
+	}
+	if(a>b)
+	{
+		return 1;
+	}
+}
+int main()
+{
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%d",f(a,b));
+    return 0;
+}
+```
+
+## 第四題 進階題:計算一列整數的總和
+
+```C
+#include <stdio.h>
+int main()
+{
+	int a[10000],n=0,total=0,b;
+	printf("Enter an integer ( 999 to end ): \n");
+	for(int i=0;scanf("%d",&b),b!=999;i++)
+	{
+		printf("Enter an integer ( 999 to end ): \n");
+		total+=b;
+	}
+	for(int i=0;i<n;i++)
+	{
+		total+=a[i];
+	}
+	printf("The total is: %d",total);
+}
+```
