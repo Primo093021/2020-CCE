@@ -181,7 +181,7 @@ int main()
     return 0;
 }
 ```
-![](week02-06163020-1.png)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week02%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/01.png?raw=true)
 ## 2. 試著使用指標 *p2 , 把變數n3 的值改掉
 
 ```C
@@ -199,7 +199,7 @@ int main()
     return 0;
 }
 ```
-![](week02-06163020-2.png)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week02%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/02.png?raw=true)
 ## 3. 試著先 p2=p1, 然後 *p2=400, 再印出來。
 
 ```C
@@ -220,7 +220,7 @@ int main()
     return 0;
 }
 ```
-![](week02-06163020-3.png)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week02%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/03.png?raw=true)
 ## 4.現在改用陣列 int n[3]={10, 20, 30}, 再用指標, 去改裡面的值
 
 ```C
@@ -242,7 +242,7 @@ int main()
     return 0;
 }
 ```
-![](week02-06163020-4.png)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week02%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/04.png?raw=true)
 
 #第03週的實習課程式
 
@@ -422,7 +422,7 @@ int main()
     *p2=666;
 }
 ```
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%2006163020-1.png?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/01.png?raw=true)
 
 ## 2.老師示範 int *p = &a[2]; *p=222; p = p + 2; *p = 666; p--; *p=555;
 
@@ -452,7 +452,7 @@ int main()
             printAll();
 }
 ```
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%2006163020-2.JPG?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/02.JPG?raw=true)
 
 ## 3.請畫出 指標的宣告 int *p=&a[2]; 及指標的使用 p = &a[2] 
 
@@ -482,7 +482,7 @@ int main()
             printAll();
 }
 ```
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%2006163020-3.PNG?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/03.PNG?raw=true)
 
 ## 4.今天教最重要的是 malloc(), 它是什麼呢? 會幫你準備 memory (allocate memory)。請用老師傳給你的圖, 自己再畫一次, 增加印象。
 
@@ -496,7 +496,7 @@ int main()
     int *p=(int*) malloc(sizeof(int)*10 );
 }
 ```
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%2006163020-4.PNG?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week03%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/04.PNG?raw=true)
 
 #第04週 程式設計二上課內容
 ## 1.請跟著老師練習: struct DATA { float x, y, z; }; 結構的宣告、定義
@@ -512,7 +512,7 @@ int main()
 
 }
 ```
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%2006163020-1.png?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/01.png?raw=true)
 
 ## 2.請跟著老師練習: 結構的使用, 把變數的 x, y, z 用小數點拿出來用
 
@@ -532,7 +532,7 @@ int main()
     printf("%f %f %f\n",point1.x,point1.y,point1.z);
 }
 ```
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%2006163020-2.png?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/02.png?raw=true)
 
 ## 3.請跟著老師練習: 很多結構的陣列, 看如何使用
 
@@ -558,15 +558,15 @@ int main()
     }
 }
 ```
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%2006163020-3.png?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/03.png?raw=true)
 
 ## 4.請跟著老師練習: 很多結構的陣列, 看如何使用
 
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%2006163020-4.png?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/04.png?raw=true)
 
 ## 5.請跟著老師練習: 很多結構的陣列, 看如何使用
 
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%2006163020-5.png?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week04%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/05.png?raw=true)
 
 #第04週的實習課程式
 
@@ -762,3 +762,567 @@ int main()
 	}
 }
 ```
+
+#第05週的實習課程式
+
+## 第一題 進階題:反序數字
+
+```C
+#include <stdio.h>
+int main()
+{
+	int a;
+	scanf("%d",&a);
+	int b=a;
+	int ans=0;
+	while(b>0)
+	{
+		ans=ans*10+b%10;
+		b=b/10;
+	}
+	
+	printf("%d+%d=%d\n",a,ans,a+ans);
+}
+```
+
+## 第二題 進階題:絕對值函數
+
+```C
+#include <stdio.h>
+int f(int n)
+{
+	if(n>0)
+	{
+		n=n;
+	}
+	else if(n=n*-1);
+	return n;
+}
+int main(void)
+{
+	int n;
+	scanf("%d",&n);
+	printf("[%d]",f(n));
+	return 0;
+}
+```
+
+## 第三題 基礎題:N數之和
+
+```C
+#include <stdio.h>
+int a[10];
+int main()
+{
+	int N;
+	int ans=0;
+	scanf("%d",&N);
+	for(int i=0;i<=N;i++)
+	{
+		scanf("%d",&a[i]);
+		ans+=a[i];
+	}
+	printf("%d\n",ans);
+}
+```
+
+## 第四題 基礎題:三數極大
+
+```C
+#include <stdio.h>
+int main()
+{
+	int a,b,c;
+	scanf("%d%d%d",&a,&b,&c);
+	if(a>b && b>c)
+	{
+		printf("%d",a);
+	}
+	else if(b>c && c>a)
+	{
+		printf("%d",b);
+	}
+	else if(c>b && b>a)
+	{
+		printf("%d",c);
+	}
+	else if(c>a && a>b)
+	{
+		printf("%d",c);
+	}
+	else if(b>a && a>c)
+	{
+		printf("%d",b);
+	}
+	else if(a>c && c>b)
+	{
+		printf("%d",a);
+	}
+	printf("\n");
+}
+```
+
+## 第五題 基礎題:計算商數
+
+```C
+#include <stdio.h>
+int main()
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	printf("%d\n",a/b);
+}
+```
+
+#第05週 程式設計二上課內容
+## 1.老師以今天考試「除惡務盡」為例, 示範了2種寫法, 其中一種是用字串的for迴圈來印。這種字串的 for迴圈很重要 for(int i=0; line[i]!=0; i++){...} 請你把程式寫出來, 並且標示 line[i]!=0 的地方 (0其實就是'\0')
+
+```C
+#include <stdio.h>
+char line[20]="233233233233233233";
+int main()
+{
+    char *p=line;
+    for(int i=0;line[i]!=0;i++)
+    {
+        p=&line[i];
+        char c=line[i];
+        if(c!='2') printf("%c",c);
+    }
+    printf("\n");
+}
+```
+![]()
+
+## 2.老師重新複習 字串的宣告: char line[10]="decline"; char line2[10]={ 'p', 'r', 'o', 'p', 'e', 'r', '\0' }; 讓大家多做練習。請練習吧! 重點是, 你有看到在字串 (字元陣列) 的後面有 '\0' 這個東西, 我們叫它「字串結尾」, 課本有畫出來過哦!
+```C
+#include <stdio.h>
+int main()
+{
+    char line[10]="decline";
+    char line2[10]={'p','r','o','p','e','r','\0'};
+    printf("%s\n",line);
+    printf("%s\n",line2);
+}
+```
+![]()
+
+
+## 3.老師示範 char line[5][10] = {"decline", "proper", "majority", "bullet", "shop"}; 並且教大家 「左邊」「右邊」的技巧。請在 CodeBlocks 畫出來
+
+```C
+#include <stdio.h>
+///要從簡單開始，慢慢增加，並且讓C Tutor可協助教學
+///本週有2個主題可以選:2D 陣列(比較有接上週進度)
+///vs. 字串排序(比較有時事的感覺) vs.CPE(時事&簡單)
+///字串剛好可以接在2D 陣列後面教
+int main()
+{///(1)先了解什麼是字串
+    char line[10]="decline";
+    char line2[10]={'p','r','o','p','e','r','\0'};
+
+    printf("%s\n",line);
+    printf("%s\n",line2);
+
+    ///(2)了解字串結尾是'\0'你相信嗎?這是line4:==%s==\n
+    char line3[]="majority這是好的，沒問題，要多長有多長";
+    char line4[]={'m','a','j','o','r','i','t','y'};
+    printf("%s\n",line3);
+
+    printf("你相信嗎?這是line4:==%s==\n",line4);
+}
+
+
+```
+![]()
+
+## 4.老師示範 char line[5][10] = {"decline", "proper", "majority", "bullet", "shop"}; 並且教大家 「左邊」「右邊」的技巧。請在 CodeBlocks 畫出來
+
+```C
+#include <stdio.h>
+///要從簡單開始，慢慢增加，並且讓C Tutor可協助教學
+///本週有2個主題可以選:2D 陣列(比較有接上週進度)
+///vs. 字串排序(比較有時事的感覺) vs.CPE(時事&簡單)
+///字串剛好可以接在2D 陣列後面教
+int main()
+{///(3)了解什麼是"很多"字串
+    char line[5][10]={"decline","proper","majority","bullet","shop"};
+    char *p;
+    for(int i=0;i<5;i++)
+    {
+        p=line[i];
+        printf("%s\n",line[i]);
+    }
+}
+
+```
+![]()
+
+## 5.老師教大家 int a[3][3]={ {1,2,3}, {4,5,6}, {7,8,9} }; 請試著畫出來
+
+```C
+#include <stdio.h>
+int a[3][3]={{1,2,3},{4,5,6},{7,8,9}};
+int main()
+{
+    for(int i=0;i<3;i++)
+    {
+        for(int j=0;j<3;j++)
+        {
+            printf("%d ",a[i][j]);
+        }
+        printf("\n");
+    }
+}
+```
+![]()
+
+## 6. 老師示範字串排序, 請用練習模式, 試寫出來。下週考這題
+
+```C
+#include <stdio.h>
+#include <string.h>
+char line[100][10];
+int main()
+{
+	int N;
+	scanf("%d",&N);
+	for(int i=0;i<N;i++)
+	{
+		scanf("%s",line[i]);
+	}
+	char temp[10];
+	for(int i=0;i<N;i++)
+	{
+		for(int i=0;i<N;i++)
+		{
+			for(int j=i+1;j<N;j++)
+			{
+				if(strcmp(line[i],line[j])>0)
+				{
+					strcpy(temp,line[i]);
+					strcpy(line[i],line[j]);
+					strcpy(line[j],temp);
+				}
+			}
+		}
+	}
+	for(int i=0;i<N;i++)
+		{
+			printf("%s\n",line[i]);
+		}
+}
+
+```
+![]()
+
+#第06週的實習課程式
+
+## 第一題 進階題:函數反序排列數字
+
+```C
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	while(n>0)
+	{
+		int now=n%10;
+		n/=10;
+		printf("%d",now);
+	}
+	printf("\n");
+}
+```
+
+## 第二題 進階題:陣列找出現次數
+
+```C
+#include <stdio.h>
+int a[10]={0,0,0,0,0,0,0,0,0,0};
+int main()
+{
+	int count=0,num;
+	while(1)
+	{
+		scanf("%d",&num);
+		count++;
+		if(count==11)
+		{
+			count=0;
+			printf("%d",a[num]);
+			break;
+		}
+		else if(num==0)
+		{
+			count=0;
+			scanf("%d",&num);
+			printf("%d\n",a[num]);
+			break;
+		}
+		a[num]++;
+	}
+}
+```
+
+## 第三題 進階題:判斷大小
+
+```C
+#include <stdio.h>
+int f(int a,int b)
+{	
+	if(a<b)
+	{
+		return -1;
+	}
+	if(a==b)
+	{
+		return 0;
+	}
+	if(a>b)
+	{
+		return 1;
+	}
+}
+int main()
+{
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%d",f(a,b));
+    return 0;
+}
+```
+
+## 第四題 進階題:計算一列整數的總和
+
+```C
+#include <stdio.h>
+int main()
+{
+	int a[10000],n=0,total=0,b;
+	printf("Enter an integer ( 999 to end ): \n");
+	for(int i=0;scanf("%d",&b),b!=999;i++)
+	{
+		printf("Enter an integer ( 999 to end ): \n");
+		total+=b;
+	}
+	for(int i=0;i<n;i++)
+	{
+		total+=a[i];
+	}
+	printf("The total is: %d",total);
+}
+```
+
+## 第五題 基礎題:找零錢
+
+```C
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	int coin50=n/50;
+	int coin10=(n%50)/10;
+	int coin5=(n%10)/5;
+	int coin1=n%5;
+	printf("%d=50*%d+10*%d+5*%d+1*%d",n,coin50,coin10,coin5,coin1);
+}
+```
+
+## 第六題 基礎題:計算車資計算
+
+```C
+#include <stdio.h>
+int main()
+{
+	int n,m,cost;
+	scanf("%d",&n);
+	if(n<=1500) cost=100;
+	else
+	{
+		m=n-1500;
+		if(m%250==0) cost=100+(m/250)*5;
+		else cost=100+((m/250)+1)*5;
+	}
+	printf("%d",cost);
+}
+```
+
+## 第七題 基礎題:計算餘數
+
+```C
+#include <stdio.h>
+int main()
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	printf("%d",a%b);
+}
+```
+
+## 第八題 基礎題:整數轉換成等級
+
+```C
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	if(n>=90)
+	{
+		printf("A");
+	}
+	else if(n>=80)
+	{
+		printf("B");
+	}
+	else if(n>=70)
+	{
+		printf("C");
+	}
+	else if(n>=60)
+	{
+		printf("D");
+	}
+	else printf("F");
+}
+```
+
+
+#第07週 程式設計二上課內容
+
+## 1.安裝好 C Tutor, 把左邊小黑/右邊C Tutor網頁,截1張圖上傳
+
+![]()
+
+## 2.請用瘋狂程設-練習模式, 把今天考試的「字串排序」,,改用 qsort() 快速排序寫寫看
+
+```C
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+char a[100][10];
+int compare(const void *p1,const void*p2)
+{
+	char *s1=(char*)p1;
+	char *s2=(char*)p2;
+	return strcmp(s1,s2);
+}
+int main()
+{
+	int N;
+	scanf("%d",&N);
+	for(int i=0;i<N;i++)
+	{
+		scanf("%s",a[i]);
+	}
+	
+	qsort(a,N,10,compare);
+	//快速排序(陣列、n個、每個有多大、比較的函式);
+	
+	for(int i=0;i<N;i++)
+	{
+		printf("%s\n",a[i]);
+	}
+}
+```
+![]()
+
+## 3.請用老師的 hackmd.io/@jsyeh/ctutor 裡, 有今天上課示範的字串排序-qsort()版, 在 C Tutor 官網跑跑看, 並改一下線條!
+
+```C
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+//char line[100][10];
+int compare( const void * p1, const void * p2 ){
+    char * s1 = (char*) p1;
+    char * s2 = (char*) p2;
+    
+    return strcmp( s1, s2);
+}
+char line[4][10]={"decline","proper","majority","bullet"};
+//char temp[10];
+int main()
+{
+    int n=4;
+    //scanf("%d", &n);
+    //for(int i=0; i<n; i++){
+    //    scanf("%s", line[i]);
+    //}
+    
+    qsort( line, n, sizeof(char[10]), compare);
+    
+    for(int i=0; i<n; i++){
+        printf("%s\n", line[i]);
+    }
+}
+```
+![]()
+
+## 4.下週考試題目: 瘋狂程設-左上角「CPE顆星廣場」-選CPE一顆星, Ctrl-F 找 10420, 練習模式寫寫看
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int comp(const void*a,const void*b)
+{
+	return strcmp((char*)a,(char*)b);
+}
+int main()
+{
+	int n,i,j,k;
+	char dict[2000][80];
+	scanf("%d\n",&n);
+	for(i=0;i<n;i++)
+	{
+		gets(dict[i]);
+		for(j=0;dict[i][j]!=' ';j++);
+		dict[i][j]='\0';
+	}
+	qsort(dict,n,80,comp);
+	k=0;
+	for(i=0;i<n;i++)
+	{
+		if(strcmp(dict[i],dict[k])!=0)
+		{
+			printf("%s %d\n",dict[k],i-k);
+			k=i;
+		}
+	}
+	printf("%s %d\n",dict[k],i-k);
+}
+```
+
+![]()
+
+## 5.用你的 C Tutor, 跑字串排序的範例 https://hackmd.io/@jsyeh/ctutor 可剪貼
+
+```C
+char *p1, *p2;
+char line[4][10]={"jkl", "ghi", "def", "abc"};
+char temp[10];
+int main() {
+  int n=4;
+  for(int i=0; i<n; i++){
+    for(int j=i+1; j<n; j++){
+      p1=line[i]; p2=line[j];
+      if( strcmp(line[i],line[j]) > 0 ){
+        strcpy(temp, line[i]);
+        strcpy(line[i], line[j]);
+        strcpy(line[j], temp);
+      }
+    }
+  }
+  
+  for(int i=0; i<n; i++){
+    printf("%s\n", line[i]);
+  }
+  
+  return 0;
+}
+```
+![]()
