@@ -2,7 +2,7 @@
 
 ## 1.安裝好 C Tutor, 把左邊小黑/右邊C Tutor網頁,截1張圖上傳
 
-![]()
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week07%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/1.png?raw=true)
 
 ## 2.請用瘋狂程設-練習模式, 把今天考試的「字串排序」,,改用 qsort() 快速排序寫寫看
 
@@ -35,7 +35,7 @@ int main()
 	}
 }
 ```
-![]()
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week07%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/2.png?raw=true)
 
 ## 3.請用老師的 hackmd.io/@jsyeh/ctutor 裡, 有今天上課示範的字串排序-qsort()版, 在 C Tutor 官網跑跑看, 並改一下線條!
 
@@ -67,7 +67,7 @@ int main()
     }
 }
 ```
-![]()
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week07%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/3.png?raw=true)
 
 ## 4.下週考試題目: 瘋狂程設-左上角「CPE顆星廣場」-選CPE一顆星, Ctrl-F 找 10420, 練習模式寫寫看
 
@@ -104,7 +104,7 @@ int main()
 }
 ```
 
-![]()
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week07%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/4.png?raw=true)
 
 ## 5.用你的 C Tutor, 跑字串排序的範例 https://hackmd.io/@jsyeh/ctutor 可剪貼
 
@@ -132,4 +132,4 @@ int main() {
   return 0;
 }
 ```
-![]()
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week07%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/5.png?raw=true)
