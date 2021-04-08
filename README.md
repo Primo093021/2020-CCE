@@ -1232,6 +1232,34 @@ int main()
 
 ## 3.請用老師的 hackmd.io/@jsyeh/ctutor 裡, 有今天上課示範的字串排序-qsort()版, 在 C Tutor 官網跑跑看, 並改一下線條!
 
+```C
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+//char line[100][10];
+int compare( const void * p1, const void * p2 ){
+    char * s1 = (char*) p1;
+    char * s2 = (char*) p2;
+    
+    return strcmp( s1, s2);
+}
+char line[4][10]={"decline","proper","majority","bullet"};
+//char temp[10];
+int main()
+{
+    int n=4;
+    //scanf("%d", &n);
+    //for(int i=0; i<n; i++){
+    //    scanf("%s", line[i]);
+    //}
+    
+    qsort( line, n, sizeof(char[10]), compare);
+    
+    for(int i=0; i<n; i++){
+        printf("%s\n", line[i]);
+    }
+}
+```
 ![]()
 
 ## 4.下週考試題目: 瘋狂程設-左上角「CPE顆星廣場」-選CPE一顆星, Ctrl-F 找 10420, 練習模式寫寫看
@@ -1273,4 +1301,28 @@ int main()
 
 ## 5.用你的 C Tutor, 跑字串排序的範例 https://hackmd.io/@jsyeh/ctutor 可剪貼
 
+```C
+char *p1, *p2;
+char line[4][10]={"jkl", "ghi", "def", "abc"};
+char temp[10];
+int main() {
+  int n=4;
+  for(int i=0; i<n; i++){
+    for(int j=i+1; j<n; j++){
+      p1=line[i]; p2=line[j];
+      if( strcmp(line[i],line[j]) > 0 ){
+        strcpy(temp, line[i]);
+        strcpy(line[i], line[j]);
+        strcpy(line[j], temp);
+      }
+    }
+  }
+  
+  for(int i=0; i<n; i++){
+    printf("%s\n", line[i]);
+  }
+  
+  return 0;
+}
+```
 ![]()
