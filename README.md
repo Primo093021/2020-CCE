@@ -1114,3 +1114,78 @@ int main()
 	printf("The total is: %d",total);
 }
 ```
+
+## 第五題 基礎題:找零錢
+
+```C
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	int coin50=n/50;
+	int coin10=(n%50)/10;
+	int coin5=(n%10)/5;
+	int coin1=n%5;
+	printf("%d=50*%d+10*%d+5*%d+1*%d",n,coin50,coin10,coin5,coin1);
+}
+```
+
+## 第六題 基礎題:計算車資計算
+
+```C
+#include <stdio.h>
+int main()
+{
+	int n,m,cost;
+	scanf("%d",&n);
+	if(n<=1500) cost=100;
+	else
+	{
+		m=n-1500;
+		if(m%250==0) cost=100+(m/250)*5;
+		else cost=100+((m/250)+1)*5;
+	}
+	printf("%d",cost);
+}
+```
+
+## 第七題 基礎題:計算餘數
+
+```C
+#include <stdio.h>
+int main()
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	printf("%d",a%b);
+}
+```
+
+## 第八題 基礎題:整數轉換成等級
+
+```C
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	if(n>=90)
+	{
+		printf("A");
+	}
+	else if(n>=80)
+	{
+		printf("B");
+	}
+	else if(n>=70)
+	{
+		printf("C");
+	}
+	else if(n>=60)
+	{
+		printf("D");
+	}
+	else printf("F");
+}
+```
