@@ -16,7 +16,7 @@ int main()
     printf("\n");
 }
 ```
-![]()
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week05%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/1.png?raw=true)
 
 ## 2.老師重新複習 字串的宣告: char line[10]="decline"; char line2[10]={ 'p', 'r', 'o', 'p', 'e', 'r', '\0' }; 讓大家多做練習。請練習吧! 重點是, 你有看到在字串 (字元陣列) 的後面有 '\0' 這個東西, 我們叫它「字串結尾」, 課本有畫出來過哦!
 ```C
@@ -29,7 +29,7 @@ int main()
     printf("%s\n",line2);
 }
 ```
-![]()
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week05%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/2.png?raw=true)
 
 
 ## 3.老師示範 char line[5][10] = {"decline", "proper", "majority", "bullet", "shop"}; 並且教大家 「左邊」「右邊」的技巧。請在 CodeBlocks 畫出來
@@ -58,7 +58,7 @@ int main()
 
 
 ```
-![]()
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week05%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/3.png?raw=true)
 
 ## 4.老師示範 char line[5][10] = {"decline", "proper", "majority", "bullet", "shop"}; 並且教大家 「左邊」「右邊」的技巧。請在 CodeBlocks 畫出來
 
@@ -80,7 +80,7 @@ int main()
 }
 
 ```
-![]()
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week05%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/4.png?raw=true)
 
 ## 5.老師教大家 int a[3][3]={ {1,2,3}, {4,5,6}, {7,8,9} }; 請試著畫出來
 
@@ -99,7 +99,7 @@ int main()
     }
 }
 ```
-![]()
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week05%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/5.png?raw=true)
 
 ## 6. 老師示範字串排序, 請用練習模式, 試寫出來。下週考這題
 
@@ -138,4 +138,4 @@ int main()
 }
 
 ```
-![]()
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week05%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/6.png?raw=true)
