@@ -1,6 +1,5 @@
 ## 3. 為了熟悉, 請你把上週考試的字串排序, 用 qsort() 配合你寫的 compare() 及 strcmp() 來再做一次!!
 
-```C
 #include <stdio.h>
 #include <string.h>
 char a[100][10];
@@ -30,6 +29,3 @@ int main()
 		printf("%s\n",a[i]);
 	}
 }
-
-
-```
