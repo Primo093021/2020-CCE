@@ -29,4 +29,3 @@ int main()
 	}
 }
 ```
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/1.png?raw=true)
