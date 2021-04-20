@@ -1,6 +1,5 @@
 ## 5. 數數字, 老師用本週考試的 UVA 10420 來示範如何數「國名出現幾次」,下週重考這題。
 
-```C
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -26,5 +25,3 @@ int main()
 		printf("%s\n",name[i]);
 	}
 }
-
-```
