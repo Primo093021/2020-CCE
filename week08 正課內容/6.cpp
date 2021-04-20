@@ -1,6 +1,5 @@
 ## 6. UVA 10266 的數數字收尾, 老師示範了一下(和上一題很像), 請你跟著試看看。
 
-```C
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -45,5 +44,3 @@ int main()
 			printf("%.4f\n", 100*ans/(float)N);
 		}
 	}
-
-```
