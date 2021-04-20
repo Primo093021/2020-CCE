@@ -1,6 +1,5 @@
 ## 2.接序上題, UVA 10226 我們(中間插入) 字串排序 的部分
 
-```C
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -34,5 +33,3 @@ int main()
 		}
 	}
 }
-
-```
