@@ -1,6 +1,5 @@
 ## 1.UVA 10226 先改測試資料, 改成1大筆。接著把 T 及 for(int t=0; t<T; t++) 寫出來。裡面用 gets() 把樹名 tree[i] 讀進來, 然後印出來
 
-```C
 #include <stdio.h>
 #include <string.h>
 char tree[1000000][32];
@@ -28,4 +27,3 @@ int main()
 	}
 	}
 }
-```
