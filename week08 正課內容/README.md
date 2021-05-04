@@ -31,7 +31,7 @@ int main()
 	}
 }
 ```
-![]()
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week08%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/1.png?raw=true)
 
 ## 2.接序上題, UVA 10226 我們(中間插入) 字串排序 的部分
 
@@ -71,7 +71,7 @@ int main()
 }
 
 ```
-![]()
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week08%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/2.png?raw=true)
 
 ## 3. 為了熟悉, 請你把上週考試的字串排序, 用 qsort() 配合你寫的 compare() 及 strcmp() 來再做一次!!
 
@@ -106,7 +106,7 @@ int main()
 	}
 }
 ```
-![]()
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week08%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/3.png?raw=true)
 
 ## 4. 為了熟悉, 請你把本週考試的字串排序, 用 qsort() 配合你寫的 compare() 及 strcmp() 來再做一次!! (不用寫到成功, 只是要你練習上週教的「字串排序」))
 
@@ -137,7 +137,7 @@ int main()
 	}
 }
 ```
-![]()
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week08%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/4.png?raw=true)
 
 ## 5. 數數字, 老師用本週考試的 UVA 10420 來示範如何數「國名出現幾次」,下週重考這題。
 
@@ -168,7 +168,7 @@ int main()
 	}
 }
 ```
-![]()
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week08%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/5.png?raw=true)
 
 ## 6. UVA 10266 的數數字收尾, 老師示範了一下(和上一題很像), 請你跟著試看看。
 
@@ -219,4 +219,4 @@ int main()
 	}
 
 ```
-![]()
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week08%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/6.png?raw=true)
