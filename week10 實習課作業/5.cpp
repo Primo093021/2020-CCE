@@ -1,6 +1,5 @@
 第五題 基礎題:計算餘數及列印
 
-
 #include <stdio.h>
 int main()
 {
