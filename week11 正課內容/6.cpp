@@ -1,3 +1,7 @@
+6. Step04, Step05
+
+(最後的Step06下週再寫)
+	
 #include <stdio.h>
 char line[2000];//其實[1001]就可以了
 int ans[256];//統計出現的次數
