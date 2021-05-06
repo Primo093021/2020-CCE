@@ -1,6 +1,5 @@
 第七題 基礎題:將一連串整數相乘
 
-
 #include <stdio.h>
 int main()
 {

@@ -1,6 +1,5 @@
 第六題 基礎題:判斷正方形
 
-
 #include <stdio.h>
 int main()
 {
