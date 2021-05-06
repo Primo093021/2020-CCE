@@ -1,24 +1,3 @@
-<<<<<<< HEAD:week11 æ­£èª²å…§å®¹/3.cpp
-#include <stdio.h>
-#include <stdlib.h>
-int compare(const void*p1,const void*p2)
-{///Âà¦¨(¾ã¼Æªº«ü¼Ð)/±æ»·Ãè¡A·Ç¬P¬Ý¨ìªº¾ã¼Æ
-    int d1=*( (int*)p1 );
-    int d2=*( (int*)p2 );
-    if(d1>d2) return 1;
-    if(d1==d2) return 0;
-    if(d1<d2) return -1;
-}
-int a[10]={4,8,3,7,5,2,9,1,6,10};
-int main()
-{
-    qsort(a,10,sizeof(int),compare);
-    for(int i=0;i<10;i++)
-    {
-        printf("%d ",a[i]);
-    }
-}
-=======
 3. è«‹è©¦ qsort() å°¤å…¶æ˜¯å®ƒçš„ compare() å‡½å¼
 
 #include <stdio.h>
@@ -40,4 +19,3 @@ int main()
         printf("%d ",a[i]);
     }
 }
->>>>>>> 18f93cf07612ee2c347b20c71cee295b49343788:3.cpp

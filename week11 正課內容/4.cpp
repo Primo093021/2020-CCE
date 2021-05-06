@@ -1,45 +1,3 @@
-<<<<<<< HEAD:week11 æ­£èª²å…§å®¹/4.cpp
-#include <stdio.h>
-#include <stdlib.h> //qsort()
-#include <string.h> //strcmp()
-char name[2000][80];
-char others[80];
-int compare( const void *p1, const void *p2 )
-{//            Âà¦¨¡u¦r¦êªº«ü¼Ð¡v
-	char*s1=(char*)p1;
-	char*s2=(char*)p2;
-	if(strcmp(s1,s2)> 0) return 1;
-	if(strcmp(s1,s2)==0) return 0;
-	if(strcmp(s1,s2)< 0) return -1;
-	//return strcmp(s1,s2);//§Ú­Ì¦b²Ä¤@¦¸±Ðªº®É­Ô¡A³o¼Ë¼g
-	//return strcmp((char*)p1,(char*)p2);
-}
-int main()
-{
-	int N;
-	scanf("%d", &N);
-	for(int i=0; i<N; i++){
-		scanf("%s", name[i] );
-		gets( others );
-	}
-
-	qsort( name, N, 80, compare );
-
-	printf("%s ", name[0] );//¶}ÀY
-	int ans=1;
-
-	for(int i=0; i<N-1; i++){
-		if( strcmp( name[i], name[i+1] ) == 0 ){
-			ans++;
-		}else{
-			printf("%d\n", ans );//µ²§À
-			printf("%s ", name[i+1] );//·sªº¶}ÀY
-			ans=1;
-		}
-	}
-	printf("%d\n", ans );//µ²§À
-}
-=======
 4. è€å¸«æŠŠ week11-4.cpp æä¾›çµ¦ä½ , æŠŠä»Šå¤©è€ƒè©¦çš„é¡Œç›®, ç”¨ç·´ç¿’æ¨¡å¼, åœ¨å³é‚Š, è£œä¸Š5è¡Œçš„ compare() å…§å®¹, ä¸¦åŠ ä¸Šè¨»è§£ã€‚
 
 #include <stdio.h>
@@ -82,4 +40,3 @@ int main()
 	}
 	printf("%d\n", ans );//çµå°¾
 }
->>>>>>> 18f93cf07612ee2c347b20c71cee295b49343788:4.cpp
