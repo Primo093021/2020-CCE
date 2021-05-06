@@ -1,10 +1,10 @@
-2. typedef æ˜¯ struct çš„å¥½æœ‹å‹, å¯ä»¥æŠŠ type è®Šç°¡å–®, typedef struct data {char c; int ans; } DATA; å¯ä»¥ç”¨ç°¡å–®çš„åå­— DATA å–ä»£å¾ˆé•·çš„ struct dataã€‚è«‹è©¦è‘—åœ¨ CodeBlocks ç…§è‘—å¯¦ä½œä¸€ä¸‹
+2. typedef 是 struct 的好朋友, 可以把 type 變簡單, typedef struct data {char c; int ans; } DATA; 可以用簡單的名字 DATA 取代很長的 struct data。請試著在 CodeBlocks 照著實作一下
 
 #include <stdio.h>
 typedef struct data
 {
-    char c;///Â­Ã¾Â¤@Â­Ã“Â¦rÂ¥Ã€
-    int ans;///Â¥XÂ²{Â´XÂ¦Â¸
+    char c;///哪一個字母
+    int ans;///出現幾次
 }DATA;
 ///struct data listA;
 DATA listA;
