@@ -1,0 +1,14 @@
+3. step03 利用 void mousePressed() 來做互動, 讓 text() 可以秀出不同的點擊次數
+
+void setup(){//只做一次的設定
+    size(1024,400);
+}
+void draw(){//互動版本，每秒畫60幅
+  if(mousePressed) background(255,0,255);//按下去紫色
+  else background(237,187,200);//否則 變粉色
+  text(a,512,200);//畫出文字
+}//目標:能畫圖，mouse按下去/移動的時候要畫點東西/做點東西
+int a=0;
+void mousePressed(){
+  a++;
+}

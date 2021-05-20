@@ -1,0 +1,14 @@
+5. step05 重寫新的Ctrl-N,去得到hour(),minute(),second() 再用字串加法加長起來
+
+//開新的
+void setup(){
+  size(1024,400);
+}
+void draw(){
+  background(#9BD5F0);//色碼
+  int s=second();//Values from 0-59
+  int m=minute();//Values from 0-59
+  int h=hour();//Values from 0-23
+  textSize(80);
+  text (h+":"+m+":"+s,100,200);
+}//  數字 字串 數字 字串 數字

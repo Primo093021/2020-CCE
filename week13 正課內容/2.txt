@@ -1,0 +1,9 @@
+2. step02 配合 void setup() 及 void draw() 做互動, 配合 if(mousePressed) 及 else 來換色, 記得加註解 (中文、英文都可以)
+
+void setup(){//只做一次的設定
+    size(1024,400);
+}
+void draw(){//互動版本，每秒畫60幅
+  if(mousePressed) background(255,0,255);//按下去紫色
+  else background(237,187,200);//否則 變粉色
+}

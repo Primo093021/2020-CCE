@@ -1,0 +1,4 @@
+1. step01 的 size() 及 background()可完成 (記得放大字型)
+
+size(1024,400);
+background(237,187,200);
