@@ -57,3 +57,100 @@ int main()
 }
 ```
 
+## 第四題 進階題:10數排序，從大到小排好
+
+```C
+#include <stdio.h>
+int a[10];
+int main()
+{
+	int i,j,temp;
+	for(i=0;i<10;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	for(i=0;i<10;i++)
+	{
+		for(j=i+1;j<10;j++)
+		{
+			if(a[i]<a[j])
+			{
+				temp=a[i];
+				a[i]=a[j];
+				a[j]=temp;
+			}
+		}
+	}
+	for(i=0;i<10;i++)
+	{
+		printf("%d ",a[i]);
+	}
+}
+```
+
+## 第五題 基礎題:正整數平方總和
+
+```C
+#include <stdio.h>
+int main()
+{
+	int n,ans=0;
+	scanf("%d",&n);
+	for(int i=1;i<=n;i++)
+	{
+		ans+=i*i;
+	}
+	printf("%d",ans);
+}
+```
+
+## 第六題 進階題:兩數之間的3倍數總和
+
+```C
+#include <stdio.h>
+int main()
+{
+	int a,b,ans=0;
+	scanf("%d%d",&a,&b);
+	for(int i=a;i<=b;i++)
+	{
+		if(i%3==0) ans+=i;
+	}
+	printf("%d",ans);
+}
+```
+
+## 第七題 基礎題:判斷座標的象限
+
+```C
+#include <stdio.h>
+int main()
+{
+	int a,b,ans;
+	scanf("%d%d",&a,&b);
+	if(a>0 && b>0) ans=1;
+	if(a<0 && b>0) ans=2;
+	if(a<0 && b<0) ans=3;
+	if(a>0 && b<0) ans=4;
+	printf("%d\n",ans);
+}
+```
+
+## 第八題 基礎題:輸入n(n>0)，求n之所有因數和
+
+```C
+#include <stdio.h>
+int main()
+{
+	int n,ans=0;
+	scanf("%d",&n);
+	for(int i=1;i<=n;i++)
+	{
+		if(n%i==0) 
+		{
+			ans+=i;
+		}
+	}
+	printf("%d",ans);
+}
+```
