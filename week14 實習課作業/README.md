@@ -23,6 +23,20 @@ int main()
 }
 ```
 
+## 第二題 基礎題:大位王
+
+```C
+#include <stdio.h>
+int main()
+{
+	char c;
+	scanf("%c",&c);
+	if(c==' ') scanf("%c",&c);
+	if(c=='-') scanf("%c",&c);
+	printf("%c\n",c);
+}
+```
+
 ## 第三題 基礎題:輸入西元y年，判斷該y年是否為閏年
 
 ```C
