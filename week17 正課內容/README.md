@@ -52,7 +52,7 @@ void draw(){
   if(win==1) text("You Win!",100,50);
 }
 ```
-![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week17%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/3.png?raw=true)
+![](https://github.com/Primo093021/2020-CCE/blob/gh-pages/week17%20%E6%AD%A3%E8%AA%B2%E5%85%A7%E5%AE%B9/3.PNG?raw=true)
 
 ## 4. step04_如果打字正確,就換下一個字母, 使用 String字串的 charAt(i) 來挑對應的字母
 
