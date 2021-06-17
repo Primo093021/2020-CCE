@@ -1,3 +1,5 @@
+2. step01-2_畫出圓弧arc,參與很像ellipse()的圓心、寬高,但多了2個不明參數,我們利用fill()不同色彩來看結果,並利用mouseX來算出一個magic number
+
 void setup(){//設定，只做1次
   size(400,200);
 }
